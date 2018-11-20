@@ -174,6 +174,56 @@ O próximo passo será colocar a mão na massa e praticar.
 
 ## <a name="parte3">Hello World HTML</a>
 
+Hello World HTML
+Antes de iniciarmos o projeto prático, preciso informar que utilizaremos o PHP Storm, como nossa IDE. Este programa é pago, mas vocês podem utilizar o Sublime Text ou o Atom. São ferramentas gratuitas e que vocês conseguirão acompanhar o conteúdo, tranquilamente.
+
+Como trabalharemos com o HTML, não há a necessidade de um editor de texto, específico. Qualquer um, que utilizarem, atenderá.
+
+O primeiro passo, para iniciarmos o projeto é, criarmos uma pasta que será a raiz do projeto. Dentro desta pasta, vocês devem criar um arquivo chamado, index.html.
+
+O nome index, não é por acaso. Nos servidores, quando não passamos nenhum arquivo para ser executado, este, é o primeiro arquivo que ele procura. Esta é uma configuração padronizada. Vocês não terão problemas ao criar o arquivo index.html, a menos que, o servidor local esteja configurado de uma forma diferente.
+
+Vejam a estrutura do arquivo index.html:
+
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    Hello world
+</body>
+</html>
+```
+
+Seja qual for o editor de texto que estiverem utilizando, é quase certo que ele possua uma extensão chamada, Emmet. Esta extensão permite que tenhamos algumas estruturas HTML, prontas, para agilizar o desenvolvimento.
+
+Se não tiver instalado, vocês podem procurar e instalar no editor. Para gerar a estrutura, acima, digitamos html:5 e depois teclamos tab e, a estrutura é gerada, automaticamente. Se não tiverem esta extensão, vocês podem digitar, manualmente, sem problema algum.
+
+Nosso foco não é ensinar o HTML, neste conteúdo. Mas, devemos informar que, cada elemento de marcação no HTML, é chamado de tag e as tags podem possuir atributos para adicionarmos características a elas.
+
+Vejam um exemplo:
+
+```
+<html> </html> e <html lang="pt-br"> </html>
+```
+
+Acima, temos a tag html sendo aberta e fechada, com e sem atributo. O atributo, citado acima, é o lang, que informa que aquele documento html terá esta linguagem.
+
+O restante, já comentamos no módulo anterior, trata-se das duas tags internas html: head e body.
+
+E como já foi dito, anteriormente, o que tem dentro da tag head, configura a nossa página e, o que está dentro do body será o conteúdo visualizado pelo usuário.
+
+Para conferirem estes dados, vocês podem abrir este arquivo, index.html, no navegador. Abrindo, vocês conseguirão ver, somente, o Hello world, que está dentro da tag body. O restante, trata-se de configurações.
+
+Se quiserem ver a estrutura, podem digitar o atalho ctrl + u, na maioria dos navegadores, que terão acesso ao código fonte da página. Vocês poderão ver todo código HTML, que digitamos no arquivo index.html.
+
+Utilizaremos o emmet, para criar a estrutura html, pra nós. Esta ferramenta nos ajuda a evitar erros como, abrir uma tag e não fechá-la, por exemplo. Em um arquivo simples, pode ficar fácil achar este erro, mas em um arquivo HTML, relativamente grande, localizar uma tag que foi aberta e não foi fechada, pode ser trabalhoso.
+
+Se não utilizarem o Emmet, tenham muito cuidado e atenção, ao criarem suas estruturas.
+
 
 [Voltar ao Índice](#indice)
 
